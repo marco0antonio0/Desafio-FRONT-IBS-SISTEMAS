@@ -1,7 +1,16 @@
-# Sistema de gerenciamento de pessoas
+# Sistema de gerenciamento de pessoas -- em andamento
 
 ![img](/imageReadme/loginPage.png)
-Este é o repositório do projeto frontend desenvolvido em Next.js para consumir a API REST do Desafio API - Sistemas
+
+- acesse esta interface web [clicando aqui](https://gerenciamento-pessoas.devs-app.tech/)
+
+Este é o repositório do projeto frontend desenvolvido em Next.js para consumir a API REST do Desafio API - Sistemas Nest js
+
+- pacotes de segurança desenvolvidos
+- reposividade de tela
+- documentação extensa api
+
+Se precisar utilize nosso guia de acesso [clicando aqui](#guia-de-acesso)
 
 ### Diagrama
 
@@ -11,7 +20,7 @@ Este é o repositório do projeto frontend desenvolvido em Next.js para consumir
 
 projeto feito em next js onde consumi a api elaborada pelo autor
 
-- [Acesse o repositorio da api](https://github.com/marco0antonio0/Desafio-API-SISTEMAS)
+- [Acesse o repositorio da api feita em nest js](https://github.com/marco0antonio0/Desafio-API-SISTEMAS)
 
 ### Detalhamento projeto front
 
@@ -47,6 +56,8 @@ No projeto Desafio-FRONT-SISTEMAS, foram implementados vários recursos de segur
 **Requisições Seguras**: Todas as requisições feitas à API são protegidas pelo protocolo HTTPS, garantindo que os dados sejam transmitidos de forma segura entre o cliente e o servidor. Além disso, as requisições que exigem autenticação devem incluir o token JWT no cabeçalho Authorization, seguindo as melhores práticas de segurança.
 
 **Documentação Extensa via Swagger**: A API é documentada de forma extensa e detalhada usando o Swagger, uma ferramenta de documentação de API amplamente utilizada. Isso permite que os desenvolvedores compreendam facilmente como interagir com a API, quais endpoints estão disponíveis e quais parâmetros são necessários para cada requisição.
+
+- [acesse o docs swagger desse projeto](https://api-desafio-d87c8746780f.herokuapp.com/api)
 
 **Validações de Entrada**: A API implementa validações de entrada em todas as requisições para garantir que os dados fornecidos pelos usuários sejam válidos e seguros. Isso ajuda a prevenir ataques de injeção de SQL, XSS (Cross-Site Scripting) e outros tipos de ataques comuns.
 
